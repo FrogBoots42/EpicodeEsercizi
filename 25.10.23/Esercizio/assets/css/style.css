@@ -1,0 +1,105 @@
+/* whole body settings */
+
+a {
+    color: rgb(15, 120, 120);
+}
+
+a:hover {
+    color: rgb(30, 35, 100);
+}
+
+/* header settings */
+
+#logo {
+    margin: 1em;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    color: rgb(0, 77, 76);
+}
+
+header b {
+    text-transform: uppercase;
+}
+
+header hr {
+    border: 1px solid yellow;
+}
+
+/* main settings */
+
+main {
+    padding-top: 5%;
+    width: 768px;
+    margin: auto;
+    font-size: 18px;
+}
+
+#vl {
+    border-left: 1px solid yellow;
+    min-height: auto;
+    max-height: auto;
+    padding-left: 20px;
+}
+
+/* introduction settings */
+
+#intro h1 {
+    font-size: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#intro p {
+
+}
+
+#intro img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+#imgdesc {
+    color: #b3b3b3;
+    text-align: center;
+}
+
+/* nav settings */
+
+nav {
+
+}
+
+nav p {
+    color: rgb(180, 70, 15);
+}
+
+/* article settings */
+
+.art_title {
+    font-weight: normal;
+}
+
+article {
+    padding-top: 5%;
+}
+
+ul {
+    line-height: 2em;
+}
+
+.listhr {
+    border: 0.5px solid rgb(188, 255, 233);
+}
+
+
+
+
+
