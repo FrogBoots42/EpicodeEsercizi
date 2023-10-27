@@ -1,0 +1,104 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+    width: 500px;
+    background-image: url(../img/sfondo.png);
+    background-size: contain;
+    margin: auto;
+    text-align: center;
+    font-family: Poppins;
+}
+
+/* HEADER */
+
+#headbox {
+    background-image: linear-gradient(#0096C8, #00648C);
+    padding-bottom: 2em;
+    box-shadow: 2px 5px 5px grey;
+    box-sizing: border-box;
+    margin: 1em 0;
+}
+
+#epilogo {
+    margin: 3em auto;
+    width: 75%;
+}
+
+#headbox h1 {
+    margin-bottom: 1em;
+    font-weight: 500;
+    font-size: larger;
+    text-transform: uppercase;
+    color: white;
+}
+
+#headboxlist a {
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+/* MAIN */
+
+main {
+    text-align: left;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+#title {
+    margin: 1em;
+}
+
+#title h2{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 0;
+
+}
+
+#title p{
+    color: grey;
+    text-align: left;
+}
+
+#main p{
+    font-weight: 500;
+}
+
+b {
+    color: darkred;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+.form {
+    background-color: lightgrey ;
+    padding: 2%;
+    
+}
+
+.form #ftit {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form #button {
+    background-color: #0096C8;
+    font-family: Poppins;
+    color: white;
+}
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */

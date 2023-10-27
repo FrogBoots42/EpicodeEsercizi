@@ -1,0 +1,182 @@
+/* Your styles here */
+
+/* General body settings */
+
+body {
+    /* font-family: 'Montserrat', sans-serif;  FOR TITLES */
+    font-family:'Open Sans', sans-serif;
+    line-height: 1.65;
+    font-size: 1.2rem;
+}
+
+/* Header settings */
+
+#top {
+    width: 100%;
+    background-color: black;
+}
+
+#top img {
+    width: 10%;
+    margin: 30px;
+    text-align: left;
+}
+
+header #title {
+    padding: 10% 13%;   
+    background-image: url(../images/banner.jpg);
+    border: 0;
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+}
+
+header #title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #25a2c3;
+    line-height: 0.9;
+    margin-bottom: 20px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+header input {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #f04c2f;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header input:hover {
+    background-color: #ff2600;
+}
+
+/* article settings */
+
+article {
+    margin-top: 3em;
+    padding: 2em;
+    overflow:hidden;
+    text-align: center;
+}
+
+article h2 {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    margin: 15px;
+}
+
+.articleImage {
+    width:50%;
+    align-content: center;
+    text-align:center;
+    float:left;
+}
+article img {
+    width:100%;
+    max-width:350px;
+    margin: 0 auto;
+}
+.articleRight {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+article #circleimg {
+    border-radius: 50%;
+}
+
+article .borderdiv {
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+/* aside settings */
+
+aside {
+    background-color: #fd3612;
+    padding: 50px 30px;
+    color: white;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+aside h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding-bottom: 25px;
+}
+
+aside cite {
+    font-style: italic;
+    font-size: small;
+}
+
+aside h4 {
+    padding-top: 25px;
+    font-size: large;
+}
+
+aside p {
+    font-size: smaller;
+}
+
+/* footer settings */
+
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+    color: white;
+    padding: 40px;
+}
+
+footer #footerbox {
+    width: 17%;
+    margin: auto;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+footer p {
+    display: inline;
+}
+
+footer a { 
+    text-decoration: underline;
+    color: #c8e7f0;
+}
+
+footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.2em;
+    padding-bottom: 25px;
+}
+
+footer #pixa {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 40px auto;
+    width: 100%;
+}
+
+
+
