@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#table {
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    background-color: lightgray;
+    border: none;
+    text-align: center;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+.highlighted {
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+
+
+td {
+    border: 1px solid black;
+    display: inline-block;
+    height: 50px;
+    width: 14%;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
