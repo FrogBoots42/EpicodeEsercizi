@@ -407,12 +407,14 @@ iframe {
   width: 48%;
   height: 300px;
   display: inline;
-  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 section {
   width: 48%;
+  height: 300px;
   display: inline-block;
-  margin: 0;
   border-radius: 20px;
+  vertical-align: middle;
 }
